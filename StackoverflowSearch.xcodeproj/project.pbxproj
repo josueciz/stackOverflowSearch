@@ -8,12 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		CA031E4C216A45F40037CA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA031E4B216A45F40037CA6B /* AppDelegate.swift */; };
-		CA031E4E216A45F40037CA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA031E4D216A45F40037CA6B /* ViewController.swift */; };
+		CA031E4E216A45F40037CA6B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA031E4D216A45F40037CA6B /* SearchViewController.swift */; };
 		CA031E51216A45F40037CA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA031E4F216A45F40037CA6B /* Main.storyboard */; };
 		CA031E54216A45F40037CA6B /* StackoverflowSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA031E52216A45F40037CA6B /* StackoverflowSearch.xcdatamodeld */; };
 		CA031E56216A45F60037CA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA031E55216A45F60037CA6B /* Assets.xcassets */; };
 		CA031E59216A45F60037CA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA031E57216A45F60037CA6B /* LaunchScreen.storyboard */; };
 		CA031E64216A45F60037CA6B /* StackoverflowSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA031E63216A45F60037CA6B /* StackoverflowSearchTests.swift */; };
+		CACBAB55216CC59B00A2DE97 /* StackOverflowAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB54216CC59B00A2DE97 /* StackOverflowAPIModel.swift */; };
+		CACBAB57216CE94B00A2DE97 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB56216CE94B00A2DE97 /* QuestionTableViewCell.swift */; };
+		CACBAB59216CF63D00A2DE97 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB58216CF63D00A2DE97 /* QuestionViewController.swift */; };
+		CACBAB5B216CF6A300A2DE97 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB5A216CF6A300A2DE97 /* ExtensionClass.swift */; };
+		CACBAB6121700FA000A2DE97 /* PaddedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB6021700FA000A2DE97 /* PaddedTextView.swift */; };
+		CACBAB632170107800A2DE97 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB622170107800A2DE97 /* PaddedLabel.swift */; };
+		CACBAB652170110900A2DE97 /* APIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB642170110900A2DE97 /* APIConnector.swift */; };
+		CACBAB672170B8C900A2DE97 /* DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB662170B8C900A2DE97 /* DateTools.swift */; };
+		CACBAB682170BA2C00A2DE97 /* DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB662170B8C900A2DE97 /* DateTools.swift */; };
+		CACBAB692170BA3E00A2DE97 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB5A216CF6A300A2DE97 /* ExtensionClass.swift */; };
+		CACBAB6A2170BA5600A2DE97 /* StackOverflowAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACBAB54216CC59B00A2DE97 /* StackOverflowAPIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +40,7 @@
 /* Begin PBXFileReference section */
 		CA031E48216A45F40037CA6B /* StackoverflowSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackoverflowSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA031E4B216A45F40037CA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA031E4D216A45F40037CA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA031E4D216A45F40037CA6B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CA031E50216A45F40037CA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA031E53216A45F40037CA6B /* StackoverflowSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StackoverflowSearch.xcdatamodel; sourceTree = "<group>"; };
 		CA031E55216A45F60037CA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +49,14 @@
 		CA031E5F216A45F60037CA6B /* StackoverflowSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackoverflowSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA031E63216A45F60037CA6B /* StackoverflowSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSearchTests.swift; sourceTree = "<group>"; };
 		CA031E65216A45F60037CA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACBAB54216CC59B00A2DE97 /* StackOverflowAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackOverflowAPIModel.swift; sourceTree = "<group>"; };
+		CACBAB56216CE94B00A2DE97 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		CACBAB58216CF63D00A2DE97 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CACBAB5A216CF6A300A2DE97 /* ExtensionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
+		CACBAB6021700FA000A2DE97 /* PaddedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextView.swift; sourceTree = "<group>"; };
+		CACBAB622170107800A2DE97 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		CACBAB642170110900A2DE97 /* APIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnector.swift; sourceTree = "<group>"; };
+		CACBAB662170B8C900A2DE97 /* DateTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +99,20 @@
 			isa = PBXGroup;
 			children = (
 				CA031E4B216A45F40037CA6B /* AppDelegate.swift */,
-				CA031E4D216A45F40037CA6B /* ViewController.swift */,
+				CA031E4D216A45F40037CA6B /* SearchViewController.swift */,
 				CA031E4F216A45F40037CA6B /* Main.storyboard */,
 				CA031E55216A45F60037CA6B /* Assets.xcassets */,
 				CA031E57216A45F60037CA6B /* LaunchScreen.storyboard */,
 				CA031E5A216A45F60037CA6B /* Info.plist */,
 				CA031E52216A45F40037CA6B /* StackoverflowSearch.xcdatamodeld */,
+				CACBAB54216CC59B00A2DE97 /* StackOverflowAPIModel.swift */,
+				CACBAB56216CE94B00A2DE97 /* QuestionTableViewCell.swift */,
+				CACBAB58216CF63D00A2DE97 /* QuestionViewController.swift */,
+				CACBAB5A216CF6A300A2DE97 /* ExtensionClass.swift */,
+				CACBAB6021700FA000A2DE97 /* PaddedTextView.swift */,
+				CACBAB622170107800A2DE97 /* PaddedLabel.swift */,
+				CACBAB642170110900A2DE97 /* APIConnector.swift */,
+				CACBAB662170B8C900A2DE97 /* DateTools.swift */,
 			);
 			path = StackoverflowSearch;
 			sourceTree = "<group>";
@@ -200,9 +227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA031E4E216A45F40037CA6B /* ViewController.swift in Sources */,
+				CACBAB672170B8C900A2DE97 /* DateTools.swift in Sources */,
+				CACBAB652170110900A2DE97 /* APIConnector.swift in Sources */,
+				CA031E4E216A45F40037CA6B /* SearchViewController.swift in Sources */,
+				CACBAB6121700FA000A2DE97 /* PaddedTextView.swift in Sources */,
+				CACBAB57216CE94B00A2DE97 /* QuestionTableViewCell.swift in Sources */,
+				CACBAB59216CF63D00A2DE97 /* QuestionViewController.swift in Sources */,
+				CACBAB5B216CF6A300A2DE97 /* ExtensionClass.swift in Sources */,
 				CA031E54216A45F40037CA6B /* StackoverflowSearch.xcdatamodeld in Sources */,
+				CACBAB632170107800A2DE97 /* PaddedLabel.swift in Sources */,
 				CA031E4C216A45F40037CA6B /* AppDelegate.swift in Sources */,
+				CACBAB55216CC59B00A2DE97 /* StackOverflowAPIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CACBAB692170BA3E00A2DE97 /* ExtensionClass.swift in Sources */,
 				CA031E64216A45F60037CA6B /* StackoverflowSearchTests.swift in Sources */,
+				CACBAB682170BA2C00A2DE97 /* DateTools.swift in Sources */,
+				CACBAB6A2170BA5600A2DE97 /* StackOverflowAPIModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YNTCVVR39C;
 				INFOPLIST_FILE = StackoverflowSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,7 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.private.StackoverflowSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -385,6 +424,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YNTCVVR39C;
 				INFOPLIST_FILE = StackoverflowSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,7 +432,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.private.StackoverflowSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
